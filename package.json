@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-  "node": ">=20.0.0"
-},
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -73,7 +73,10 @@
     "typescript": "^5"
   },
   "resolutions": {
-    "@openzeppelin/contracts": "^5.0.1"
+    "@openzeppelin/contracts": "^5.0.1",
+    "ethers": "5.7.2"
+
+
   },
   "type": "module"
 }
